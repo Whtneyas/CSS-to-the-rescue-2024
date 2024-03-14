@@ -31,12 +31,12 @@ During this worship i got understand the difference between the various *color m
 
 
 - RGB (Red, Green, Blue):
-   Red, Green, and Blue are additive primary colors, with each ranging from 0 to 255 (or 0 to 1 in some contexts).
+   - Red, Green, and Blue are additive primary colors, with each ranging from 0 to 255 (or 0 to 1 in some contexts).
 
 - OKLCH (LCh, Lightness, Chroma, Hue):
-- Lightness: Similar to HSL, represents brightness from 0 (black) to 100 (white).
-- Chroma: Describes the colorfulness or saturation of the color.
-- Hue: Represents the type of color, similar to HSL.
+   - Lightness: Similar to HSL, represents brightness from 0 (black) to 100 (white).
+   - Chroma: Describes the colorfulness or saturation of the color.
+   - Hue: Represents the type of color, similar to HSL.
 
 
 
