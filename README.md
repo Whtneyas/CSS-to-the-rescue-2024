@@ -12,8 +12,9 @@ In week 1 i came up with a concept.By looking for inspirations of modular design
 
 
 ### Sketches
-![alt text](<WhatsApp Image 2024-03-15 at 11.11.50.jpeg>)
-![alt text](<WhatsApp Image 2024-03-15 at 11.11.50 (1).jpeg>)
+![image sketch](<WhatsApp Image 2024-03-15 at 11.11.50 (1).jpeg>)
+![image sketch](<WhatsApp Image 2024-03-15 at 11.11.50.jpeg>)
+
 
 
 
