@@ -1,5 +1,75 @@
+html,
+body {
+    min-height: 100%;
+    margin: 0;
+}
 
-body{
-    background-color:violet;
- 
+body {
+    /* background-image:
+        radial-gradient(closest-side,
+            LightBlue,
+            dodgerblue 10%,
+            transparent 100%);
+    background-color: rgb(17, 3, 17); */
+    color: white;
+    background-color: black;
+
+
+}
+
+header>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+
+    >h1 {
+        color: turquoise;
+        font-size: 4rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serifl;
+        text-transform: uppercase;
+        text-shadow: 2px 2px green;
+        text-shadow: 30px -20px 50px dodgerblue,
+        30px 20px 20px dodgerblue;
+
+
+
+
+    }
+
+        >div {
+            border: 8px solid #f3f3f3;
+            border-radius: 50%;
+            border-top: 8px solid turquoise;
+            animation: spin 2s linear infinite;
+            width: 50px;
+            height: 50px;
+
+        }
+
+
+
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+}
+
+
+
+
+
+@media (min-width: 600px) {
+
+    header>div>h1 {
+        font-size: 8rem;
+    }
 }
