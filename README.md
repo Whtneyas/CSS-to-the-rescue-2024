@@ -12,12 +12,12 @@ In week 1 i came up with a concept.By looking for inspirations of modular design
 
 
 ### Sketches
+![alt text](<WhatsApp Image 2024-03-15 at 11.11.50.jpeg>)
+![alt text](<WhatsApp Image 2024-03-15 at 11.11.50 (1).jpeg>)
 
 
 
-
-
-### Worshop - color hsl , rgb , oklch , display_p3
+### Workshop - color hsl , rgb , oklch , display_p3
 
 During this worship i got understand the difference between the various *color models* I did an exercise on it making it more clear to me what each color model does.
 
@@ -63,10 +63,13 @@ During this worship i got understand the difference between the various *color m
 ![image](https://github.com/Whtneyas/CSS-to-the-rescue-2024/assets/90154152/3db2b62c-aeb8-4d79-9cc3-0c9550e4e510)
 
 
+## Experimenting with gradients 
 
 
 ### Resources
 #### Images
 - https://stock.adobe.com/nl/search/images?k=simple+cartoon+landscape&asset_id=79905462
 
+#### Text shadows
+- https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow
 
