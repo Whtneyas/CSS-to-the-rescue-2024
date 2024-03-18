@@ -1,28 +1,21 @@
 # CSS-to-the-rescue-2024
 This is a project from school
 
-#Control panel
+##Control panel
 This is an interactive application  made in html and Css.
-
-
 
 ## Week 1
 ### Concept
 In week 1 i came up with a concept.By looking for inspirations of modular designs i can remake. I finally came up with a concept of a camera.
-
 
 ### Sketches
 ![Image Alt Text](./imgs/WhatsApp%20Image%202024-03-15%20at%2011.11.50%20(1).jpeg)
 ![Image Alt Text](./imgs/WhatsApp%20Image%202024-03-15%20at%2011.11.50.jpeg)
 
 
-
-
-
-
 ### Workshop - color hsl , rgb , oklch , display_p3
 
-During this worship i got understand the difference between the various *color models* I did an exercise on it making it more clear to me what each color model does.
+During this workshop i got understand the difference between the various *color models* I did an exercise on it making it more clear to me what each color model does.
 
 ### Notes ( Color panels)*
 
@@ -66,7 +59,13 @@ During this worship i got understand the difference between the various *color m
 ![image](https://github.com/Whtneyas/CSS-to-the-rescue-2024/assets/90154152/3db2b62c-aeb8-4d79-9cc3-0c9550e4e510)
 
 
-## Experimenting with gradients 
+### Experimenting with gradients 
+
+### Experimenting with with textshadows
+
+    I was experienting with how text shadow works and how i can animate letters one by one. I started experimenting in codepen. I also made notes on things i found about textshadows. 
+    
+
 
 
 ### Resources
