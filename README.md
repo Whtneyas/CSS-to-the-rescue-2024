@@ -5,6 +5,7 @@ This is a project from school
 This is an interactive application  made in html and Css.
 
 ## Week 1
+***
 ### Concept
 In week 1 i came up with a concept.By looking for inspirations of modular designs i can remake. I finally came up with a concept of a camera.
 
@@ -14,6 +15,7 @@ In week 1 i came up with a concept.By looking for inspirations of modular design
 
 
 ### Workshop - color hsl , rgb , oklch , display_p3
+***
 
 During this workshop i got understand the difference between the various *color models* I did an exercise on it making it more clear to me what each color model does.
 
@@ -39,6 +41,7 @@ During this workshop i got understand the difference between the various *color 
 ![alt text](image-1.png)
 
 ## Ideas and inspirations?
+***
 - Piano
 - Printer
 - Desktop
@@ -60,12 +63,14 @@ During this workshop i got understand the difference between the various *color 
 
 
 ### Experimenting with gradients 
+***
 
 ### Experimenting with with textshadows
+***
 
-    I was experienting with how text shadow works and how i can animate letters one by one. I started experimenting in codepen. I also made notes on things i found about textshadows. 
-    
+I was experienting with how text shadow works and how i can animate letters one by one. I started experimenting in codepen. I also made notes on things i found about textshadows. 
 
+https://github.com/Whtneyas/CSS-to-the-rescue-2024/assets/90154152/e9b83d14-4f18-448a-a9ce-153eea122ae6
 
 
 ### Resources
