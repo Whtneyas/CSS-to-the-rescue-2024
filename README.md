@@ -93,9 +93,13 @@ Before decidingon a structure i first drew out my camera and how i want it to be
 
 
 ### Resources
-#### Images
+Images
 - https://stock.adobe.com/nl/search/images?k=simple+cartoon+landscape&asset_id=79905462
-
-#### Text shadows
+  
+Text shadows
 - https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow
+
+3d transoforms
+- https://3dtransforms.desandro.com/3d-transform-functions
+  
 
