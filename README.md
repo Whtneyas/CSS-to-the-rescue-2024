@@ -73,6 +73,25 @@ I was experienting with how text shadow works and how i can animate letters one 
 https://github.com/Whtneyas/CSS-to-the-rescue-2024/assets/90154152/e9b83d14-4f18-448a-a9ce-153eea122ae6
 
 
+// WEEk 2 
+
+Deciding on the structure of my camera 
+Before decidingon a structure i first drew out my camera and how i want it to be and the components it will contain. With this in mind the structure will become like this: 
+
+- Camera
+   - Top
+      - Lens
+      - View finder
+      - flash
+      - shutter
+      - Timer
+  - Bottom
+     -  Printer
+     -  logo (my logo)
+     -  Toggle  
+   
+
+
 ### Resources
 #### Images
 - https://stock.adobe.com/nl/search/images?k=simple+cartoon+landscape&asset_id=79905462
