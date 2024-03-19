@@ -1,75 +1,77 @@
-html,
 body {
-    min-height: 100%;
-    margin: 0;
-}
-
-body {
-    /* background-image:
-        radial-gradient(closest-side,
-            LightBlue,
-            dodgerblue 10%,
-            transparent 100%);
-    background-color: rgb(17, 3, 17); */
-    color: white;
-    background-color: black;
-
+  
 
 }
 
-header>div {
+header {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 80vh;
 
-    >h1 {
-        color: turquoise;
-        font-size: 4rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serifl;
-        text-transform: uppercase;
-        text-shadow: 2px 2px green;
-        text-shadow: 30px -20px 50px dodgerblue,
-        30px 20px 20px dodgerblue;
+}
 
 
+/*Curtains**/
+header>div:nth-of-type(1) {
+    background-size: 100%;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    overflow: hidden;
 
+}
 
-    }
+header>div:nth-of-type(1)>div:nth-of-type(1) {
+    background: rgba(0, 0, 0, 0);
+    width: 100vw;
+    /* height: 100vh; */
+    position: absolute;
+    border-top: 50px solid rgb(167, 102, 10);
+    z-index: 99999;
 
-        >div {
-            border: 8px solid #f3f3f3;
-            border-radius: 50%;
-            border-top: 8px solid turquoise;
-            animation: spin 2s linear infinite;
-            width: 50px;
-            height: 50px;
+}
 
-        }
-
+header>div:nth-of-type(1)>div:nth-of-type(2) {
+    background: linear-gradient(100deg, rgb(158, 19, 19), black);
+    background-size: 10% 100%;
+    width: 50%;
+    height: 100vh;
+    position: absolute;
+    transition: width .4s linear;
+    animation: curtains-open 6s ease-in-out forwards;
 
 
 }
 
-@keyframes spin {
+header>div:nth-of-type(1)>div:nth-of-type(3) {
+    background: linear-gradient(100deg, rgb(158, 19, 19), black);
+    background-size: 10% 100%;
+    width: 50%;
+    height: 100vh;
+    float: right;
+    margin-left: 300px;
+    position: relative;
+    transition: width .4s linear;
+    animation: curtains-open 6s ease-in-out forwards;
+
+}
+
+@keyframes curtains-open {
     0% {
-        transform: rotate(0deg);
+        width: -40px;
     }
 
     100% {
-        transform: rotate(360deg);
+        width: 300px
     }
 
 }
 
 
-
-
-
-@media (min-width: 600px) {
-
-    header>div>h1 {
-        font-size: 8rem;
-    }
+/*Curtains**/
+header>div:nth-of-type(2){
+    color:white;
+    display:flex;
+    justify-content:center;
+    width: 50vw;
+    height:50vh;
+    background-color: green;
 }
