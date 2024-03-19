@@ -1,0 +1,62 @@
+/**File for animations**/
+
+/**To render to the main page**/
+@keyframes render-page{
+    0% {
+     display:block;
+    } 
+    100%{
+     display:none;
+    }
+ }
+
+
+
+/**Open the curtains**/
+ @keyframes curtains-open {
+    0% {
+        width: -40px;
+    }
+
+    100% {
+        width: 300px
+    }
+
+}
+
+/**Animation for the hollywood effect**/
+@keyframes hollywood {
+    0% {
+      gap: 0vw;
+    }
+    100% {
+      gap: 1vw;
+    }
+  }
+
+  /**Animation to show the letters**/
+  @keyframes show {
+    0% {
+      opacity: 0;
+      filter: blur(1em);
+      transform: translateY(-100px);
+    }
+    100% {
+      opacity: 1;
+      filter: blur(0em);
+      transform: translateY(0);
+    }
+  }
+
+
+  /**Animation to make the camera shin**/
+  @keyframes shine {
+    0% {
+        box-shadow: 0vw;
+    }
+
+    100% {
+        box-shadow: 0 0 100px 100px rgb(79, 235, 219);
+    }
+
+}
