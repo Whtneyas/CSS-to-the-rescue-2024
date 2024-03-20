@@ -5,6 +5,7 @@ body {
 header {
     display: flex;
     animation: render-page 9s ease-in-out forwards;
+    /* visibility:hidden; */
 }
 
 
