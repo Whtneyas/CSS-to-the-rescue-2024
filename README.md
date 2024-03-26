@@ -111,6 +111,9 @@ With this one i tried giving th bottom inner part een shadow which made it look 
  ![image](https://github.com/Whtneyas/CSS-to-the-rescue-2024/assets/90154152/52f23586-20a0-48ad-a4cd-99943ae0a86e)
 
 
+ ### Turning label/inpu into clickable buttons
+
+
 
 
 
