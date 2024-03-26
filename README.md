@@ -90,6 +90,17 @@ I was skeptical about how my the structure of my code for the camera is. Before 
 ![image](https://github.com/Whtneyas/CSS-to-the-rescue-2024/assets/90154152/e666dcf9-2e39-41ec-aed8-e302c1500057)
 
 
+## Week 3 
+In week 3 i decided to work on the different parts of my camera. 
+
+### Printer
+I wanted the printer to look more realistic not just a rectangle with a border but a more realistic 3d looking printer. I didn't know which css property i should use. I then thought of box shadow using inset property for the box shadow which helps me to draw the shadow inside the element making it look more realistic. I had a little difficult with making it more realistic so i was just add serverals insets to and trying out different ways to finally be like what i want it to me. 
+
+### First try 
+
+![image](https://github.com/Whtneyas/CSS-to-the-rescue-2024/assets/90154152/04d9836b-d1fe-4a00-b5aa-f490549c3bd4)
+
+
 
 
 
