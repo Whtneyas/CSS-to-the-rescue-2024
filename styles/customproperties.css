@@ -1,0 +1,23 @@
+:root {
+
+    /**borders**/
+    --circle:50%;
+    --border-radius:5px;
+
+
+    /*Text styles**/
+    --text-shadow: 2px -2px rgb(43, 42, 42);
+
+
+    /*Colors**/
+    --light-color:#fff;
+    --main-bg-color:linear-gradient(to right, oklch(70% 0 0), oklch(80% 0 0));
+    --dark: #000;
+    --darker-grey: oklch(50% 0 0);
+   
+    --lighter-grey:
+    --screen-color:
+    --button-color:
+
+
+}
