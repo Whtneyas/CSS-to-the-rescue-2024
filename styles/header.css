@@ -1,11 +1,9 @@
-body {
 
-}
 
 header {
     display: flex;
     animation: render-page 9s ease-in-out forwards;
-    /* visibility:hidden; */
+    visibility:hidden;
 }
 
 
@@ -66,7 +64,7 @@ header>div:nth-of-type(2) {
     color: rgb(79, 235, 219);
 }
 
-header>div:nth-of-type(2)>div:nth-of-type(1) {}
+
 
 h1 {
     --letter-delay: 0.2s;
