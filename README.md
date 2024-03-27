@@ -90,6 +90,31 @@ I was skeptical about how my the structure of my code for the camera is. Before 
 ![image](https://github.com/Whtneyas/CSS-to-the-rescue-2024/assets/90154152/e666dcf9-2e39-41ec-aed8-e302c1500057)
 
 
+## Week 3 
+In week 3 i decided to work on the different parts of my camera. 
+
+### Printer
+I wanted the printer to look more realistic not just a rectangle with a border but a more realistic 3d looking printer. I didn't know which css property i should use. I then thought of box shadow using inset property for the box shadow which helps me to draw the shadow inside the element making it look more realistic. I had a little difficult with making it more realistic so i was just add serverals insets to and trying out different ways to finally be like what i want it to me. 
+
+### First try 
+
+With this one i tried giving th bottom inner part een shadow which made it look like 2 double bars inside the element.
+
+![image](https://github.com/Whtneyas/CSS-to-the-rescue-2024/assets/90154152/04d9836b-d1fe-4a00-b5aa-f490549c3bd4)
+
+### Second try 
+![image](https://github.com/Whtneyas/CSS-to-the-rescue-2024/assets/90154152/48eea535-b408-43f8-af7e-ecc9ebba1a83)
+
+ ### Code for second try
+ After analysing what the problem was i decided to get rid of the shadow i added at the bottim inner part of the element to make it look more realistic🥰
+
+ ![image](https://github.com/Whtneyas/CSS-to-the-rescue-2024/assets/90154152/52f23586-20a0-48ad-a4cd-99943ae0a86e)
+
+
+ ### Turning label/inpu into clickable buttons
+
+
+
 
 
 
@@ -102,5 +127,6 @@ Text shadows
 
 3d transoforms
 - https://3dtransforms.desandro.com/3d-transform-functions
+- https://3dtransforms.desandro.com/perspective
   
 
