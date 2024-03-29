@@ -1,0 +1,51 @@
+<article>
+    <section>
+        <h3>Photo</h3>
+        <div>
+            <!-- Radio buttons to switch between screens -->
+            <input type="radio" id="home" name="screen" checked>
+            <label for="home">Home</label>
+            
+            <input type="radio" id="video" name="screen">
+            <label for="video">Video</label>
+            
+            <input type="radio" id="images" name="screen">
+            <label for="images">Images</label>
+        </div>
+
+        <!-- Home screen -->
+        <div class="home-screen screen">
+            <h4>Home Screen</h4>
+            <p>This is the home screen content.</p>
+        </div>
+
+        <!-- Video screen -->
+        <div class="video-screen screen">
+            <h4>Video Screen</h4>
+            <p>This is the video screen content.</p>
+        </div>
+
+        <!-- Images screen -->
+        <div class="images-screen screen">
+            <h4>Images Screen</h4>
+            <p>This is the images screen content.</p>
+        </div>
+    </section>
+
+
+
+
+  <style>
+    .screen {
+    display: none;
+  }
+
+  /* Show the selected screen */
+  #home:checked ~ .home-screen,
+  #video:checked ~ .video-screen,
+  #images:checked ~ .images-screen {
+    display: block;
+    background-color: red; /* Added background color for visibility */
+  }
+
+  </style>
