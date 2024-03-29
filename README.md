@@ -115,6 +115,29 @@ With this one i tried giving th bottom inner part een shadow which made it look 
 
 
 
+  ### Home screen with button icons
+
+
+
+  ### Photo screen.
+
+  I wanted to add an activate button that activates the camera. For this to happen i have to use js. Which is not allowed in this course but i still tried to see how it will turn out. I used js to make this happen but i couldn't position the camera in the container like i wanted to. It was taking too much of time so i decided to rather create a camera effect rather with just css. 
+
+
+### First try to activate a camera. 
+![image](https://github.com/Whtneyas/CSS-to-the-rescue-2024/assets/90154152/0d3e5575-722d-461b-be2f-bae2356a7d8a)
+
+### code used
+![image](https://github.com/Whtneyas/CSS-to-the-rescue-2024/assets/90154152/0f40615c-cdaa-4f01-816a-932aa24ae23b)
+
+![image](https://github.com/Whtneyas/CSS-to-the-rescue-2024/assets/90154152/d4027166-536f-4358-8071-19e86c35bb0f)
+
+
+
+  
+
+
+
 
 
 
