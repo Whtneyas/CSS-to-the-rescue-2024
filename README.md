@@ -111,11 +111,14 @@ With this one i tried giving th bottom inner part een shadow which made it look 
  ![image](https://github.com/Whtneyas/CSS-to-the-rescue-2024/assets/90154152/52f23586-20a0-48ad-a4cd-99943ae0a86e)
 
 
- ### Turning label/inpu into clickable buttons
+ ### Turning label/input into clickable buttons
 
 
 
   ### Home screen with button icons
+  ![image](https://github.com/Whtneyas/CSS-to-the-rescue-2024/assets/90154152/ebcd3577-d66b-4bed-80a4-97abd2cd81bc)
+  This is the homescreen i have in mind to make. 
+
 
 
 
@@ -133,8 +136,18 @@ With this one i tried giving th bottom inner part een shadow which made it look 
 ![image](https://github.com/Whtneyas/CSS-to-the-rescue-2024/assets/90154152/d4027166-536f-4358-8071-19e86c35bb0f)
 
 
+  ### Gallery screen
+
+  In the gallery screen i wanted to make gallery album using scroll animation so that i can scroll smoothly . I also made the gallery in a way that when you click an image you will get a bigger size of the image on the left. 
+
+  Difficulty: The only difficulty i have is getting read of the vertical scrollbar on the left and the horizontal scrollbar on the right. I tried using overflow hidden but then it hides the scrollbar without me being able to scroll and that is not how i want it. I came to find out that using overlay will hide it the scrollbar but the scrtollbar wont lose its functionnality. 
+
+  ![image](https://github.com/Whtneyas/CSS-to-the-rescue-2024/assets/90154152/39ccfa1b-5985-4f41-914d-40c37d1ce7b4)
+
+
 
   
+
 
 
 
