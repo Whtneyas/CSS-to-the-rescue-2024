@@ -1,65 +1,66 @@
 # CSS-to-the-rescue-2024
-This is a project from school
+Dit is een project van school.
 
-##Control panel
-This is an interactive application  made in html and Css.
+## Bedieningspaneel
+Dit is een interactieve toepassing gemaakt in HTML en CSS.
 
 ## Week 1
 ### Concept
-In week 1 i came up with a concept.By looking for inspirations of modular designs i can remake. I finally came up with a concept of a camera.
+In week 1 kwam ik met een concept. Door op zoek te gaan naar inspiraties van modulaire ontwerpen die ik kan hermaken, kwam ik uiteindelijk op het idee van een camera.
 
-### Sketches
+### Schetsen
 <img src="./imgs/WhatsApp%20Image%202024-03-15%20at%2011.11.50%20(1).jpeg" alt="Image Alt Text" width="500" height="500">
 
 <img src="./imgs/WhatsApp%20Image%202024-03-15%20at%2011.11.50.jpeg" alt="Image Alt Text" width="500" height="500">
 
 
 
-## Workshop - color hsl , rgb , oklch , display_p3
-During this workshop i got to understand the difference between the various *color models* I did an exercise on it making it more clear to me what each color model does.
-### Notes ( Color panels)*
+## Workshop - kleur hsl , rgb , oklch , display_p3
+Tijdens deze workshop heb ik het verschil geleerd tussen de verschillende *kleurmodellen*. Ik heb een oefening gedaan waarbij het duidelijker werd wat elk kleurmodel doet.
+
+### Notities ( Kleurpanelen)*
 
 - HSL (Hue, Saturation, Lightness):
 
-   - Hue: Represents the color itself, ranging from 0 to 360 degrees (red to red).
-   - Saturation: Describes the intensity or purity of the color, ranging from 0% (grayscale) to 100% (fully saturated).
-   - Lightness: Indicates the brightness of the color, with 0% being black and 100% being white.
+   - Hue: Representeert de kleur zelf, variërend van 0 tot 360 graden (rood tot rood).
+   - Saturation: Beschrijft de intensiteit of zuiverheid van de kleur, variërend van 0% (grijstinten) tot 100% (volledig verzadigd).
+   - Lightness: Geeft de helderheid van de kleur aan, waarbij 0% zwart is en 100% wit.
 
 
 - RGB (Red, Green, Blue):
-   - Red, Green, and Blue are additive primary colors, with each ranging from 0 to 255 (or 0 to 1 in some contexts).
+   - Rood, Groen en Blauw zijn additieve primaire kleuren, waarbij elk varieert van 0 tot 255 (of 0 tot 1 in sommige contexten).
 
 - OKLCH (LCh, Lightness, Chroma, Hue):
-   - Lightness: Similar to HSL, represents brightness from 0 (black) to 100 (white).
-   - Chroma: Describes the colorfulness or saturation of the color.
-   - Hue: Represents the type of color, similar to HSL.
+   - Lightness: Vergelijkbaar met HSL, representeert helderheid van 0 (zwart) tot 100 (wit).
+   - Chroma: Beschrijft de kleurrijkheid of verzadiging van de kleur.
+   - Hue: Representeert het type kleur, vergelijkbaar met HSL.
 
-Link to codepen: https://codepen.io/Whitneyas/pen/vYMXBZa
+Link naar codepen: https://codepen.io/Whitneyas/pen/vYMXBZa
 
 
-## Ideas and inspirations?
+## Ideeën en inspiraties?
 - Piano
 - Printer
 - Desktop
-- Washing machine
-- Camera (Preferred)
+- Wasmachine
+- Camera (Voorkeur)
 
 ### Experimenting with gradients 
 ***
 
-### Experimenting with with textshadows
+### Geexperimenteerd met tekstschaduw
 
-I was experimenting with how text shadow works and how i can animate letters one by one. I started experimenting in codepen. I also made notes on things i found about textshadows. 
+Ik experimenteerde met hoe tekstschaduw werkt en hoe ik letters één voor één kan animeren. Ik begon te experimenteren in CodePen. Ik heb ook aantekeningen gemaakt over dingen die ik ontdekte over tekstschaduwen.
 
 https://github.com/Whtneyas/CSS-to-the-rescue-2024/assets/90154152/e9b83d14-4f18-448a-a9ce-153eea122ae6
 
 
 ## WEEK 2 
 
-In week 2 i got an idea to add curtains that opens to my comcept. So the idea is that when the curtain opens then the title appears. Both curtains and texts would be animated.I followed a typography workshop and during this workshop i learnt how to animate text.
+In week 2 kreeg ik het idee om gordijnen toe te voegen die opengaan in mijn concept. Dus het idee is dat wanneer het gordijn opengaat, de titel verschijnt. Zowel de gordijnen als de tekst zouden geanimeerd worden. Ik volgde een typografie-workshop en tijdens deze workshop leerde ik hoe ik tekst kon animeren.
 
-### Experimenting in codepen- Curtains 
-I had to first experiment in codepen to see if it works before transferring to vscode. I was experimenting with gradients, and animation. How i can animate it to open and close. The knowledge i got forom the typography workshop i applied it to my concept. But first i tried it in codepen
+### Experimenten in CodePen - Gordijnen
+Voordat ik het naar VSCode overzette, moest ik eerst experimenteren in CodePen om te zien of het werkt. Ik experimenteerde met gradients en animaties, hoe ik het kon animeren om te openen en te sluiten. De kennis die ik opdeed tijdens de typografie-workshop paste ik toe op mijn concept. Maar eerst heb ik het uitgeprobeerd in CodePen.
 ![image](https://github.com/Whtneyas/CSS-to-the-rescue-2024/assets/90154152/b343240e-439b-4267-b182-e1d25dc76c88)
 ![image](https://github.com/Whtneyas/CSS-to-the-rescue-2024/assets/90154152/eff69b4f-1dbb-4b15-a380-926981f4a3d5)
 
@@ -67,17 +68,18 @@ I had to first experiment in codepen to see if it works before transferring to v
 ![image](https://github.com/Whtneyas/CSS-to-the-rescue-2024/assets/90154152/2222ada5-92b1-4388-9ac1-9c8e2379cf8a)
 
 
-What i have now? 
+Wat heb ik nu?
 
 In codepen : https://codepen.io/Whitneyas/pen/mdgroxd
 
-### What i learnt ?
-- How to animate text separately using span for each letter
-- Use of vw to make components responsive (was new for me)
-- Use of filter
+### Wat heb ik geleerd?
+- Hoe tekst afzonderlijk te animeren door voor elke letter een span te gebruiken.
+- Het gebruik van vw om componenten responsief te maken (was nieuw voor mij).
+- Het gebruik van filter.
 
 ### Deciding on the structure of my camera 
-Before deciding on the sturcture of my camera i first drew out my camera and how i want it to be and the components it will contain. With this in mind the structure will become like this: 
+
+Voordat ik besloot over de structuur van mijn camera, heb ik eerst mijn camera getekend en bedacht hoe ik wilde dat het eruit zou zien en welke onderdelen het zou bevatten. Met dit in gedachten zou de structuur er als volgt uitkomen:
 
 ![image](https://github.com/Whtneyas/CSS-to-the-rescue-2024/assets/90154152/ffdea408-dc56-4723-9aaf-bc2087a625e0")
 ![image](https://github.com/Whtneyas/CSS-to-the-rescue-2024/assets/90154152/789059d4-6021-4029-8395-41f06ed3cf43)
@@ -86,7 +88,7 @@ Before deciding on the sturcture of my camera i first drew out my camera and how
 
 
 ### Code structure
-I was skeptical about how my the structure of my code for the camera is. Before having to start i wanted to get the structure so that it will be easier for me when deciding on which properties i want to use and which component i have to create or work on first.
+Ik twijfelde aan de structuur van mijn code voor de camera. Voordat ik begon, wilde ik de structuur vastleggen zodat het gemakkelijker voor me zou zijn om te beslissen welke eigenschappen ik wilde gebruiken en aan welk component ik eerst moest werken.
 ![image](https://github.com/Whtneyas/CSS-to-the-rescue-2024/assets/90154152/e666dcf9-2e39-41ec-aed8-e302c1500057)
 
 
@@ -94,11 +96,11 @@ I was skeptical about how my the structure of my code for the camera is. Before 
 In week 3 i decided to work on the different parts of my camera. 
 
 ### Printer
-I wanted the printer to look more realistic not just a rectangle with a border but a more realistic 3d looking printer. I didn't know which css property i should use. I then thought of box shadow using inset property for the box shadow which helps me to draw the shadow inside the element making it look more realistic. I had a little difficult with making it more realistic so i was just add serverals insets to and trying out different ways to finally be like what i want it to me. 
+Ik wilde dat de printer er realistischer uitzag, niet alleen als een rechthoek met een rand, maar als een meer realistische 3D-printer. Ik wist niet welke CSS-eigenschap ik moest gebruiken. Toen dacht ik aan de box-shadow met de inset-eigenschap, waarmee ik de schaduw binnen het element kon tekenen en het er realistischer uit kon laten zien. Ik had wat moeite om het er realistischer uit te laten zien, dus voegde ik meerdere insets toe en probeerde verschillende manieren uit totdat het eindelijk was zoals ik het wilde.
 
 ### First try 
 
-With this one i tried giving th bottom inner part een shadow which made it look like 2 double bars inside the element.
+Met deze heb ik geprobeerd om het onderste binnenste deel een schaduw te geven, waardoor het eruitzag als 2 dubbele balken binnenin het element.
 
 ![image](https://github.com/Whtneyas/CSS-to-the-rescue-2024/assets/90154152/04d9836b-d1fe-4a00-b5aa-f490549c3bd4)
 
@@ -106,7 +108,7 @@ With this one i tried giving th bottom inner part een shadow which made it look 
 ![image](https://github.com/Whtneyas/CSS-to-the-rescue-2024/assets/90154152/48eea535-b408-43f8-af7e-ecc9ebba1a83)
 
  ### Code for second try
- After analysing what the problem was i decided to get rid of the shadow i added at the bottim inner part of the element to make it look more realistic🥰
+ Nadat ik had geanalyseerd wat het probleem was, besloot ik om de schaduw die ik had toegevoegd aan het onderste binnenste deel van het element te verwijderen om het er realistischer uit te laten zien. 🥰
 
  ![image](https://github.com/Whtneyas/CSS-to-the-rescue-2024/assets/90154152/52f23586-20a0-48ad-a4cd-99943ae0a86e)
 
@@ -122,27 +124,39 @@ With this one i tried giving th bottom inner part een shadow which made it look 
 
 
 
-  ### Photo screen.
+  ### Fotoscherm .
 
-  I wanted to add an activate button that activates the camera. For this to happen i have to use js. Which is not allowed in this course but i still tried to see how it will turn out. I used js to make this happen but i couldn't position the camera in the container like i wanted to. It was taking too much of time so i decided to rather create a camera effect rather with just css. 
+ Ik wilde een activeringsknop toevoegen die de camera activeert. Om dit te laten gebeuren, moet ik JavaScript gebruiken. Dat is echter niet toegestaan in deze cursus, maar ik heb toch geprobeerd te zien hoe het zou uitpakken. Ik heb JavaScript gebruikt om dit te laten gebeuren, maar ik kon de camera niet positioneren in de container zoals ik wilde. Het kostte te veel tijd, dus besloot ik in plaats daarvan een camerabeleffect te creëren met alleen CSS.
 
 
-### First try to activate a camera. 
+### First tryout om de camera te activeren
 ![image](https://github.com/Whtneyas/CSS-to-the-rescue-2024/assets/90154152/0d3e5575-722d-461b-be2f-bae2356a7d8a)
 
-### code used
+### Code gebruikt 
 ![image](https://github.com/Whtneyas/CSS-to-the-rescue-2024/assets/90154152/0f40615c-cdaa-4f01-816a-932aa24ae23b)
 
 ![image](https://github.com/Whtneyas/CSS-to-the-rescue-2024/assets/90154152/d4027166-536f-4358-8071-19e86c35bb0f)
 
 
-  ### Gallery screen
+  ### Galerij
 
-  In the gallery screen i wanted to make gallery album using scroll animation so that i can scroll smoothly . I also made the gallery in a way that when you click an image you will get a bigger size of the image on the left. 
+   In het galerijscherm wilde ik een galerijalbum maken met een scrollanimatie, zodat ik soepel kan scrollen. Ik heb ook de galerij zo gemaakt dat wanneer je op een afbeelding klikt, je een grotere versie van de afbeelding aan de linkerkant krijgt.
 
-  Difficulty: The only difficulty i have is getting read of the vertical scrollbar on the left and the horizontal scrollbar on the right. I tried using overflow hidden but then it hides the scrollbar without me being able to scroll and that is not how i want it. I came to find out that using overlay will hide it the scrollbar but the scrtollbar wont lose its functionnality. 
+Uitdaging: De enige moeilijkheid die ik heb, is om van de verticale scrollbar aan de linkerkant en de horizontale scrollbar aan de rechterkant af te komen. Ik heb geprobeerd overflow hidden te gebruiken, maar dan verbergt het de scrollbar zonder dat ik kan scrollen, en dat is niet wat ik wil. Ik kwam erachter dat het gebruik van overlay de scrollbar zou verbergen maar dat de scrollbar zijn functionaliteit niet zou verliezen. 
 
   ![image](https://github.com/Whtneyas/CSS-to-the-rescue-2024/assets/90154152/39ccfa1b-5985-4f41-914d-40c37d1ce7b4)
+
+
+### Voortganggesprek met Sanne 
+Tijdens de voortgang gesprek heb ik met sanne besproken waar ik vast zit en wat kan beter. Sanne heeft tips gegeven hoe ik mijn code beter kan structuren door te refactoren. Ik was begonnen met een large screen ipv van een klein scherm dus mijn ontwerp is niet goed responsief. Samen met sanne heb ik mijn code doorgenomen waardoor sannen denkt dat sommige html en css code niet nodig zijn om te gebruiken dus daar ga ik ook eraan werken.  
+
+Wat ga ik aanpakken 
+- Eerst beginnen met het ontwerpen op een klein scherm
+- Code refactoren
+- Kleine dingentjes aanpassen
+
+
+  
 
 
 
