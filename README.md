@@ -155,6 +155,16 @@ Wat ga ik aanpakken
 - Code refactoren
 - Kleine dingentjes aanpassen
 
+## Beginnen met een kleine scherm 
+ Soms liep ik vast en moest ik urenlang zoeken naar wat er mis was. Ik heb alle styling in één bestandje gezet, maar binnenkort ga ik ze opsplitsen in verschillende mappen zodat het voor Sanne makkelijker wordt om mijn code te lezen.
+
+ ### Camera werkt niet door de gordijn die ik boven op heb. 
+ Omdat de gordijn bovenop staat en op hidden staat, werkt de camera niet. Ik weet niet ik hoe ik deze moet oplossen. Ik heb een gordijn gemaakt dat boven de camera staat. Ik heb een grid ingesteld voor de body en binnen de body heb ik de header (voor het gordijn) en in de main (de camera). Ik heb geprobeerd het gordijn geanimeerd te laten verdwijnen, maar dit heeft de werking van de camera beïnvloed. De knoppen van de camera werken niet omdat het gordijn erbovenop staat, ook al is het verborgen.
+
+Ik heb geprobeerd om met z-index te werken, maar dan komt de camera boven het gordijn te staan. Ik heb Sanne om hulp gevraagd. Als hij niet op tijd kan helpen, zal ik een andere oplossing bedenken. De oplossing die ik momenteel heb, is om een aparte HTML-pagina te maken.
+![image](https://github.com/Whtneyas/CSS-to-the-rescue-2024/assets/90154152/af95d339-31f4-47b3-970c-2ed3862bf21c)
+
+
 
   
 
