@@ -1,9 +1,16 @@
-
+body {
+    display: grid;
+    grid-area: 1/1;
+    justify-content: center;
+}
 
 header {
     display: flex;
     animation: render-page 9s ease-in-out forwards;
-    visibility:hidden;
+    display: block;
+    grid-area: 1/1;
+
+
 }
 
 
@@ -92,6 +99,7 @@ h1>span {
     &:nth-child(1) {
         --start-delay: calc(var(--initial-delay) + (var(--letter-delay) * 0));
     }
+
     &:nth-child(2) {
         --start-delay: calc(var(--initial-delay) + (var(--letter-delay) * 1));
     }
@@ -164,8 +172,3 @@ header>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div>div {
     border-radius: 50%;
     animation: shine 13s forwards alternate;
 }
-
-
-
-
-

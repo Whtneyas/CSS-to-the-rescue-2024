@@ -150,58 +150,7 @@ article:nth-of-type(1)>section:nth-of-type(1) {
 article:nth-of-type(1)>section:nth-of-type(1)>div {
     width: 12vw;
     height: 12vw;
-    border-radius: var(--circle);
-    display: grid;
-    place-items: center;
-
-}
-
-
-/*Lens - 2 */
-article:nth-of-type(1)>section:nth-of-type(1)>div>div {
-    width: 10vw;
-    height: 10vw;
-    border-radius: var(--circle);
-    border: 1px solid var(--dark);
-    display: grid;
-    place-items: center;
-    background-color: rgb(199, 198, 198);
-}
-
-/*Lens - 3*/
-article:nth-of-type(1)>section:nth-of-type(1)>div>div>div {
-    width: 8vw;
-    height: 8vw;
-    border-radius: var(--circle);
-    border: 1px solid var(--dark);
-    display: grid;
-    place-items: center;
-    background-color: rgb(139, 137, 137);
-}
-
-
-/*Lens - 4 */
-article:nth-of-type(1)>section:nth-of-type(1)>div>div>div>div {
-    width: 4vw;
-    height: 4vw;
-    border-radius: var(--circle);
-    border: 1px solid var(--dark);
-    display: grid;
-    place-items: center;
-    /* background-color: rgb(56, 54, 54); */
-    background-color: rgb(56, 54, 54);
-}
-
-/*Lens 5*/
-article:nth-of-type(1)>section:nth-of-type(1)>div>div>div>div>div {
-    width: 3vw;
-    height: 3vw;
-    border-radius: var(--circle);
-    border: 1px solid rgb(173, 173, 173);
-    display: grid;
-    place-items: center;
-    background-color: rgb(117, 116, 116);
-}
+ 
 
 /* 
 Printer container */

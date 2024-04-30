@@ -3,6 +3,8 @@ main {
     height: 100dvh;
     justify-content: center;
     align-items: end;
+    grid-area: 1/1;
+    /* z-index: -1; */
 }
 
 main>div:nth-of-type(1) {
@@ -54,6 +56,7 @@ article:nth-of-type(1) {
     box-shadow: inset 5px 5px 10px rgb(77, 76, 76);
     box-shadow: inset -5px -5px -10px rgb(77, 76, 76);
     background: var(--main-bg-color);
+    background-color: red;
     /* display: none; */
 
 }
@@ -141,7 +144,7 @@ article:nth-of-type(1)>section:nth-of-type(1) {
     justify-content: center;
     place-items: center;
     border-radius: 5px;
-    background-color: rgba(238, 237, 237, 0.356);
+    /* background-color: rgba(238, 237, 237, 0.356); */
     padding: 1em;
 
 
@@ -161,57 +164,47 @@ article:nth-of-type(1)>section:nth-of-type(1)>div {
     place-items: center;
     background-color: var(--darker-grey);
     justify-self: center;
-    box-shadow: inset 4px 5px 6px var(--darker-grey),
-        inset -4px -5px 6px var(--darker-grey);
+    box-shadow: inset 3px 2px 4px black,
+    inset -3px -2px 4px black;
+   
 
 
 
 }
 
-/*LENS -2 */
 article:nth-of-type(1)>section:nth-of-type(1)>div>div {
     width: 8em;
     height: 8em;
     border-radius: var(--circle);
-    border: 1px solid darkgrey;
     display: grid;
     place-items: center;
-  
-    z-index: 2;
+    background-color: var(--darker-grey);
+    box-shadow: inset 3px 2px 4px black,
+    inset -3px -2px 4px black;
+    justify-self: center;
+   
+
+
+
 }
 
-/*Lens - 3*/
 article:nth-of-type(1)>section:nth-of-type(1)>div>div>div {
     width: 6em;
     height: 6em;
     border-radius: var(--circle);
-    border: 1px solid darkgrey;
     display: grid;
     place-items: center;
-    background-color: rgb(139, 137, 137);
+    background: radial-gradient(circle at top, violet,blue ,transparent);
+    justify-self: center;
+   
+
+
+
 }
 
-/*Lens - 4*/
-article:nth-of-type(1)>section:nth-of-type(1)>div>div>div>div {
-    width: 4em;
-    height: 4em;
-    border-radius: var(--circle);
-    border: 1px solid darkgrey;
-    display: grid;
-    place-items: center;
-    background-color: rgb(139, 137, 137);
-}
 
-/*Lens 5*/
-article:nth-of-type(1)>section:nth-of-type(1)>div>div>div>div>div {
-    width: 2em;
-    height: 2em;
-    border-radius: var(--circle);
-    border: 1px solid rgb(173, 173, 173);
-    display: grid;
-    place-items: center;
-    background-color: rgb(117, 116, 116);
-}
+
+
 
 /* 
 Printer container */
@@ -282,11 +275,12 @@ h3 {
 form {
     position: relative;
     width: 18em;
+    border-radius: .7em;
     aspect-ratio: 16/5;
     background-image: linear-gradient(to top right, #5cb5e1, #3ea4f0, #416bdf);
     border: 10px solid var(--darker-grey);
-    box-shadow: inset 7px 7px 3px rgb(133, 131, 131),
-        inset -7px -7px 3px rgb(133, 131, 131);
+    box-shadow: inset 2px 2px 4px black,
+    inset -2px -2px 4px black;
 
 
     display: grid;
@@ -560,6 +554,7 @@ form:has([value="Camera"]:checked) section:nth-of-type(1) {
     background-color: black;
     display: grid;
     place-content: center;
+   
 }
 
 
@@ -792,11 +787,38 @@ form:has([value="Gallery"]:checked) section:nth-of-type(3)>div {
 
 }
 
+/**PRINT BUTTON**/
+
 form:has([value="Gallery"]:checked) section:nth-of-type(3)>div>figure>label {
     align-self: self-end;
     padding: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 
+    & input[type="radio"] {
+        position: absolute;
+        opacity: 0;
+
+
+    }
+
+    & input[type="checkbox"]:checked+span {
+
+
+
+    }
+
+    & span {
+        /* position: absolute; */
+        color: white;
+        padding: .3em .7em;
+        border-radius: .5em;
+        background-color:blue;
+        font-size: .7rem;
+
+
+
+    }
 
 }
 
@@ -805,4 +827,8 @@ form:has([value="Gallery"]:checked) section:nth-of-type(3)>div>figure>label {
 /**CANCEL BUTTON**/
 form:has( :checked) button {
     display: block;
+    border-radius:var(--circle);
+    border: none;
+    font-size: .5rem;
+    padding:.5em .7em
 }
