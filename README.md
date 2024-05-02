@@ -155,6 +155,29 @@ Wat ga ik aanpakken
 - Code refactoren
 - Kleine dingentjes aanpassen
 
+## Beginnen met een kleine scherm 
+ Soms liep ik vast en moest ik urenlang zoeken naar wat er mis was. Ik heb alle styling in één bestandje gezet, maar binnenkort ga ik ze opsplitsen in verschillende mappen zodat het voor Sanne makkelijker wordt om mijn code te lezen.
+
+ ### Camera werkt niet door de gordijn die ik boven op heb. 
+ Omdat de gordijn bovenop staat en op hidden staat, werkt de camera niet. Ik weet niet ik hoe ik deze moet oplossen. Ik heb een gordijn gemaakt dat boven de camera staat. Ik heb een grid ingesteld voor de body en binnen de body heb ik de header (voor het gordijn) en in de main (de camera). Ik heb geprobeerd het gordijn geanimeerd te laten verdwijnen, maar dit heeft de werking van de camera beïnvloed. De knoppen van de camera werken niet omdat het gordijn erbovenop staat, ook al is het verborgen.
+
+Ik heb geprobeerd om met z-index te werken, maar dan komt de camera boven het gordijn te staan. Ik heb Sanne om hulp gevraagd. Als hij niet op tijd kan helpen, zal ik een andere oplossing bedenken. De oplossing die ik momenteel heb, is om een aparte HTML-pagina te maken.
+![image](https://github.com/Whtneyas/CSS-to-the-rescue-2024/assets/90154152/af95d339-31f4-47b3-970c-2ed3862bf21c)
+
+
+
+## Camera interactief maken. 
+Ik heb nu bijna alles wat ik op de camera wil hebben. Nu ga ik het interactief maken.
+
+Als je op de startknop drukt, verschijnt het scherm, wat ik heb gedaan met een overgang. Ik heb het scherm onder de camera geplaatst met `grid-area: 1/1` in zowel de container van de camera als de container van het scherm.
+
+https://github.com/Whtneyas/CSS-to-the-rescue-2024/assets/90154152/7e8395ea-c38a-472c-a99b-b657b676ada7
+
+## Printer interactief maken
+
+
+
+
 
   
 
