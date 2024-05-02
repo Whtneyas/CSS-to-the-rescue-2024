@@ -7,9 +7,6 @@ form:has([value="Video"]:checked) section:nth-of-type(2) {
     background-color: black;
     display: grid;
     justify-content: center;
-
-
-
     & h4 {
         display: none;
     }
@@ -27,10 +24,7 @@ form:has([value="Video"]:checked) section:nth-of-type(2) {
             place-content: center;
             width: 2em;
 
-
-
-
-            & input[type="radio"] {
+            & input[type="checkbox"] {
                 appearance: none;
                 -webkit-appearance: none;
                 -moz-appearance: none;
@@ -41,20 +35,12 @@ form:has([value="Video"]:checked) section:nth-of-type(2) {
                 cursor: pointer;
                 border-radius: var(--circle);
                 background-color: rgb(195, 16, 16);
-
             }
 
             & input[type="checkbox"]:checked {
-
                 background-color: green;
-
-
-
-
             }
-
 
         }
     }
-
 }

@@ -2,24 +2,21 @@
 
 /**Nav for camera**/
 form:has([value="Camera"]:checked) section:nth-of-type(1) {
-    display: block;
     background-color: black;
     display: grid;
     place-content: center;
-
 }
 
+/** Camra effects**/
 form:has([value="Camera"]:checked) section:nth-of-type(1)>ul {
     display: flex;
+    justify-content: center;
     list-style: none;
     border-radius: 5px;
-    justify-content: center;
 
     & li {
         display: flex;
         justify-content: center;
-
-
 
         & input {
             appearance: none;
@@ -33,18 +30,12 @@ form:has([value="Camera"]:checked) section:nth-of-type(1)>ul {
             outline: none;
             cursor: pointer;
             border-radius: var(--circle);
-            /* background-color: var(--light-color); */
-
-
         }
 
         & input[type="checkbox"]:checked {
             box-shadow: inset 3px 3px 5px yellow, inset -3px -3px 3px yellow;
 
-
         }
-
-
     }
 
     & li:active {
@@ -53,28 +44,20 @@ form:has([value="Camera"]:checked) section:nth-of-type(1)>ul {
         border-radius: var(--border-radius)
     }
 
-
 }
 
 
 
-/**Camera shoot**/
+/**Camera button on the screen**/
 
 form:has([value="Camera"]:checked) section:nth-of-type(1)>label {
     display: grid;
     place-content: center;
 
-
-
-
     & div {
         border-radius: var(--circle);
         border: 3px solid var(--light-color);
         display: grid;
-        place-content: center;
-
-
-
 
         & input[type="checkbox"] {
             appearance: none;
@@ -83,15 +66,11 @@ form:has([value="Camera"]:checked) section:nth-of-type(1)>label {
             width: 2em;
             aspect-ratio: 1;
             outline: none;
-            cursor: pointer;
             border-radius: var(--circle);
             background-color: var(--light-color);
         }
     }
-
-
 }
-
 
 /**Camera effects**/
 

@@ -5,18 +5,10 @@ form>section {
     display: none;
 }
 
-/**Cancel button for the screen**/
-form>button {
-    position: absolute;
-    right: 1em;
-    top: 1em;
-    display: none;
-}
 
 form>fieldset {
     padding: 0;
 }
-
 
 form>fieldset>label {
     display: grid;
@@ -40,6 +32,9 @@ form>fieldset>label {
     & input[type="radio"] {
         position: absolute;
         opacity: 0;
+        width: 3em;
+        bottom: 1em;
+
 
 
     }
@@ -52,14 +47,17 @@ form>fieldset>label {
         box-shadow: inset 3px 3px 5px white, inset -3px -3px 3px white;
         font-size: .7rem;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-
-
-
     }
 
-
 }
+/**Cancel button for the screen**/
+form>button {
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    display: none;
+}
+
 
 /**CANCEL BUTTON**/
 form:has( :checked) button {

@@ -4,21 +4,17 @@ main>label:first-child {
     position: relative;
     left: 82%;
 
-
     & input {
         margin: auto;
         -webkit-appearance: none;
         position: absolute;
         overflow: hidden;
-        /* transform: translateY(6.8em); */
         bottom: .7em;
         height: 2em;
         width: 3em;
         background-color: var(--default-color);
         border-radius: .5em;
         box-shadow: inset -2px -5px 2px black;
-
-
     }
 }
 
@@ -28,7 +24,6 @@ main>div:nth-of-type(1) {
     justify-content: start;
     transform: translateY(-8em);
 }
-
 
 /**START BUTTON**/
 article:nth-of-type(1)>label {
@@ -46,14 +41,8 @@ article:nth-of-type(1)>label {
         opacity: 0;
         transform: translateY(160%)translateX(100%);
         z-index: 1;
-
     }
 
-    input[type="checkbox"]:checked+span {
-        background-color: blue;
-
-
-    }
 
     & span {
         position: absolute;
@@ -68,12 +57,10 @@ article:nth-of-type(1)>label {
             inset -1px 0px 3px black,
             -2px -3px 3px black;
         border: 5px solid var(--darker-grey);
-
     }
 }
 
 /**On button**/
-
 body:has([value="start"]:checked) article:nth-of-type(2) {
     transform: translateY(-45%);
     transition: 2s ease-in-out;
