@@ -1,0 +1,81 @@
+/**SCREEN FOR GALLERY**/
+form:has([value="Gallery"]:checked) section:nth-of-type(3) {
+    display: block;
+    display: flex;
+    background-color: white;
+}
+
+
+/**Vertical scroll-Gallery**/
+
+form:has([value="Gallery"]:checked) section:nth-of-type(3)>nav {
+    background-color: var(--light-color);
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    display: grid;
+    justify-content: center;
+    padding: 1.5em;
+
+
+    & a {
+        min-width: 50px;
+        display: grid;
+        justify-content: center;
+
+
+        & img {
+            width: 5em;
+            display: block;
+            max-width: 3em;
+            object-fit: cover;
+            margin-bottom: 20px;
+            scroll-snap-align: start;
+            filter: saturate(0);
+            transition: all ease 0.2s;
+            border-radius: var(--border-radius);
+
+
+        }
+
+        & img:hover {
+            transform: scale(1.05);
+            filter: saturate(1);
+        }
+    }
+}
+
+
+
+
+/**Display gallery**/
+
+form:has([value="Gallery"]:checked) section:nth-of-type(3)>div {
+    background-color: rgba(134, 133, 133, 0.621);
+    scroll-behavior: smooth;
+    overflow: hidden;
+    scroll-snap-type: y mandatory;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    scrollbar-width: none;
+
+
+    & figure {
+        display: flex;
+        place-content: center;
+        scroll-snap-align: center;
+
+
+
+        & img {
+            width: 7em;
+            border-radius: var(--border-radius);
+
+
+
+        }
+    }
+
+}

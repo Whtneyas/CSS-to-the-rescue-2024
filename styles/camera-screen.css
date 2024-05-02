@@ -1,0 +1,139 @@
+/**SCREEN FOR CAMERA**/
+
+/**Nav for camera**/
+form:has([value="Camera"]:checked) section:nth-of-type(1) {
+    display: block;
+    background-color: black;
+    display: grid;
+    place-content: center;
+
+}
+
+form:has([value="Camera"]:checked) section:nth-of-type(1)>ul {
+    display: flex;
+    list-style: none;
+    border-radius: 5px;
+    justify-content: center;
+
+    & li {
+        display: flex;
+        justify-content: center;
+
+
+
+        & input {
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            box-shadow: inset 3px 3px 5px white, inset -3px -3px 3px white;
+            width: 2em;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            border: 3px solid var(--dark);
+            outline: none;
+            cursor: pointer;
+            border-radius: var(--circle);
+            /* background-color: var(--light-color); */
+
+
+        }
+
+        & input[type="checkbox"]:checked {
+            box-shadow: inset 3px 3px 5px yellow, inset -3px -3px 3px yellow;
+
+
+        }
+
+
+    }
+
+    & li:active {
+        /* Add your hover effect styles here */
+        border: 3px solid rgb(197, 197, 40);
+        border-radius: var(--border-radius)
+    }
+
+
+}
+
+
+
+/**Camera shoot**/
+
+form:has([value="Camera"]:checked) section:nth-of-type(1)>label {
+    display: grid;
+    place-content: center;
+
+
+
+
+    & div {
+        border-radius: var(--circle);
+        border: 3px solid var(--light-color);
+        display: grid;
+        place-content: center;
+
+
+
+
+        & input[type="checkbox"] {
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            width: 2em;
+            aspect-ratio: 1;
+            outline: none;
+            cursor: pointer;
+            border-radius: var(--circle);
+            background-color: var(--light-color);
+        }
+    }
+
+
+}
+
+
+/**Camera effects**/
+
+/**Grey-light**/
+body:has([value="grey-light"]:checked) {
+    filter: grayscale(50%);
+
+}
+
+body:has([value="grey-light"]:checked)>main>div:nth-of-type(1)>article:nth-of-type(1) {
+    filter: none;
+
+}
+
+/**Contrast**/
+body:has([value="contrast"]:checked) {
+    filter: contrast(150%);
+
+}
+
+body:has([value="contrast"]:checked)>main>div:nth-of-type(1)>article:nth-of-type(1) {
+    filter: none;
+
+}
+
+/**Bright**/
+body:has([value="bright"]:checked) {
+    filter: brightness(1);
+
+
+}
+
+body:has([value="bright"]:checked)>main>div:nth-of-type(1) {
+    filter: none
+}
+
+/**Natural**/
+
+body:has([value="natural"]:checked) {
+    filter: saturate(200%);
+}
+
+body:has([value="natural"]:checked)>main>div:nth-of-type(1) {
+    filter: none;
+}

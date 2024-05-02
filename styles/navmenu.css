@@ -1,0 +1,71 @@
+/**SCREENS**/
+form>section {
+    inset: 0;
+    position: absolute;
+    display: none;
+}
+
+/**Cancel button for the screen**/
+form>button {
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    display: none;
+}
+
+form>fieldset {
+    padding: 0;
+}
+
+
+form>fieldset>label {
+    display: grid;
+    padding: .5em;
+    align-self: center;
+    gap: .5em;
+    place-items: center;
+
+
+    & legend {
+        display: none;
+    }
+
+
+    & svg {
+        width: 1.5em;
+        fill: rgb(2, 47, 60);
+
+    }
+
+    & input[type="radio"] {
+        position: absolute;
+        opacity: 0;
+
+
+    }
+
+    & span {
+        /* position: absolute; */
+        color: black;
+        padding: .3em .7em;
+        border-radius: .5em;
+        box-shadow: inset 3px 3px 5px white, inset -3px -3px 3px white;
+        font-size: .7rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+
+
+    }
+
+
+}
+
+/**CANCEL BUTTON**/
+form:has( :checked) button {
+    display: block;
+    border-radius: var(--circle);
+    border: none;
+    font-size: .5rem;
+    padding: .5em .7em
+}

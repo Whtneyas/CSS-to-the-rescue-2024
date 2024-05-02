@@ -1,0 +1,130 @@
+/* 
+Printer container */
+article:nth-of-type(1)>section:nth-of-type(2) {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    display: grid;
+    justify-content: center;
+    gap: 1em;
+
+
+}
+
+
+
+article:nth-of-type(1)>section:nth-of-type(2)>div {
+    width: 15em;
+    height: 1em;
+    border-radius: 5px;
+    border: 10px solid grey;
+    box-shadow: inset 0px 10px 10px rgb(46, 45, 45),
+        inset 0px 10px 0px 2px white,
+        inset -5px -10px 10px rgb(46, 45, 45);
+    background: grey;
+
+
+
+}
+
+
+
+article:nth-of-type(1)>section:nth-of-type(2)>label {
+    justify-self: end;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: .7rem;
+
+
+    & input[type="checkbox"] {
+        position: absolute;
+        opacity: 0;
+
+
+    }
+
+    & input[type="checkbox"]:checked+span {
+        background-color: #0d4fdd;
+        width: 10em;
+
+
+    }
+
+    & span {
+        /* position: absolute; */
+        color: white;
+        padding: .3em 1em;
+        border-radius: 2em;
+        box-shadow: inset 2px 2px 3px black;
+        background-color: var(--darker-grey);
+        border: 5px solid rgb(88, 86, 86);
+
+
+    }
+}
+
+h3 {
+    display: none;
+}
+
+/**Printer images**/
+article:nth-of-type(1)>section:nth-of-type(2)>div>nav {
+    display: grid;
+  
+
+}
+
+article:nth-of-type(1)>section:nth-of-type(2)>div>nav>img {
+    width: 12em;
+    aspect-ratio: 1;
+    grid-area: 1/1;
+    border: 10px solid white;
+   
+    transform:translateY(-14em);
+    opacity:0;
+
+
+
+}
+
+article:nth-of-type(1):has([value=print]:checked) section:nth-of-type(2)>div>nav>img {
+    animation: print 4s ease-in-out forwards;
+}
+
+
+/**PRINT BUTTON**/
+
+form:has([value="Gallery"]:checked) section:nth-of-type(3)>div>figure>label {
+    align-self: self-end;
+    padding: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+    & input[type="radio"] {
+        position: absolute;
+        opacity: 0;
+        bottom: .5em;
+        right:2.2em;
+        width:2em;
+
+
+    }
+
+    & input[type="checkbox"]:checked+span {}
+
+    & span {
+        /* position: absolute; */
+        color: white;
+        padding: .3em .7em;
+        border-radius: .5em;
+        background-color: blue;
+        font-size: .7rem;
+
+
+
+    }
+
+}
+
+
+

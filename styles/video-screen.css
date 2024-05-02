@@ -1,0 +1,60 @@
+/**SCREEN FOR VIDEO**/
+
+form:has([value="Video"]:checked) section:nth-of-type(2) {
+    background: url(/imgs/dancing.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    display: grid;
+    justify-content: center;
+
+
+
+    & h4 {
+        display: none;
+    }
+
+    & label {
+        display: grid;
+        justify-content: center;
+        position: relative;
+        bottom: 2em;
+
+        & div {
+            border-radius: var(--circle);
+            border: 3px solid var(--light-color);
+            display: grid;
+            place-content: center;
+            width: 2em;
+
+
+
+
+            & input[type="radio"] {
+                appearance: none;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                width: 2em;
+                height: 2em;
+                border-radius: 50%;
+                outline: none;
+                cursor: pointer;
+                border-radius: var(--circle);
+                background-color: rgb(195, 16, 16);
+
+            }
+
+            & input[type="checkbox"]:checked {
+
+                background-color: green;
+
+
+
+
+            }
+
+
+        }
+    }
+
+}

@@ -1,0 +1,46 @@
+body{
+    display:grid;
+}
+header {
+    animation: render-page 9s ease-in-out forwards;
+    grid-area: 1/1;
+    z-index: 100;
+    display:none;
+}
+
+/*Curtains**/
+header>section:nth-of-type(1){
+    position: absolute;
+    inset:0;
+    z-index: 4;
+}
+
+/* Top trim */
+header>section:nth-of-type(1)>div:nth-of-type(1) {
+    position: relative;
+    border-top: 2em solid rgb(248, 162, 42);
+    z-index: 2;
+}
+
+/* Both curtains */
+header>section:nth-of-type(1)>div:nth-of-type(n + 2) {
+    background-image: linear-gradient(100deg, rgb(158, 19, 19), black);
+    background-size: 10% 100%;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    animation: curtains-open 6s ease-in-out forwards;
+}
+
+/* Left curtain */
+header>section:nth-of-type(1)>div:nth-of-type(2) {
+    left:0;
+    transform-origin:left;
+}
+
+/* Right curtain */
+header>section:nth-of-type(1)>div:nth-of-type(3) {
+    right:0;
+    transform-origin:right;
+}
+

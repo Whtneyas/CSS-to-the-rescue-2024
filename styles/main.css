@@ -1,9 +1,20 @@
-@import url("header.css");
- /* @import url("camera.css"); */
+
+@import url("body.css");
+@import url("curtains.css");
 @import url("animation.css");
+@import url("logo.css");
 @import url("customproperties.css");
 @import url("container.css");
-
+@import url("camera.css");
+@import url("lens.css");
+@import url("printer.css");
+@import url("homescreen.css");
+@import url("bubbles.css");
+@import url("navmenu.css");
+@import url("video-screen.css");
+@import url("camera-screen.css");
+@import url("gallery-screen.css");
+@import url("start-shoot-btns.css");
 
 
 
