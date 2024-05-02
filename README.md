@@ -166,6 +166,19 @@ Ik heb geprobeerd om met z-index te werken, maar dan komt de camera boven het go
 
 
 
+## Camera interactief maken. 
+Ik heb nu bijna alles wat ik op de camera wil hebben. Nu ga ik het interactief maken.
+
+Als je op de startknop drukt, verschijnt het scherm, wat ik heb gedaan met een overgang. Ik heb het scherm onder de camera geplaatst met `grid-area: 1/1` in zowel de container van de camera als de container van het scherm.
+
+https://github.com/Whtneyas/CSS-to-the-rescue-2024/assets/90154152/7e8395ea-c38a-472c-a99b-b657b676ada7
+
+## Printer interactief maken
+
+
+
+
+
   
 
 
