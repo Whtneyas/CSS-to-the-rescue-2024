@@ -22,8 +22,8 @@ article:nth-of-type(1)>section:nth-of-type(1)>div {
     display: grid;
     place-items: center;
     background-color: var(--darker-grey);
-    box-shadow: inset 3px 2px 4px black,
-        inset -3px -2px 4px black;
+    box-shadow: inset 3px 2px 4px var(--dark),
+        inset -3px -2px 4px var(--dark);
 
 }
 /*LENS-2 */
@@ -34,8 +34,8 @@ article:nth-of-type(1)>section:nth-of-type(1)>div>div {
     display: grid;
     place-items: center;
     background-color: var(--darker-grey);
-    box-shadow: inset 3px 2px 4px black,
-    inset -3px -2px 4px black;
+    box-shadow: inset 3px 2px 4px var(--dark),
+    inset -3px -2px 4px var(--dark);
 }
 
 /*LENS-3 */
@@ -45,6 +45,6 @@ article:nth-of-type(1)>section:nth-of-type(1)>div>div>div {
     border-radius: var(--circle);
     display: grid;
     place-items: center;
-    background: radial-gradient(circle at top, violet, blue, transparent);
+    background: radial-gradient(circle at top, hsl(300, 76%, 72%), hsl(240, 100%, 50%), transparent);
 }
 

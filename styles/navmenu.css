@@ -41,10 +41,10 @@ form>fieldset>label {
 
     & span {
         /* position: absolute; */
-        color: black;
+        color: var(--dark);
         padding: .3em .7em;
         border-radius: .5em;
-        box-shadow: inset 3px 3px 5px white, inset -3px -3px 3px white;
+        box-shadow: inset 3px 3px 5px var(--light-color), inset -3px -3px 3px var(--light-color);
         font-size: .7rem;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }

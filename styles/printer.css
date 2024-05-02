@@ -13,11 +13,11 @@ article:nth-of-type(1)>section:nth-of-type(2)>div {
     width: 15em;
     height: 1em;
     border-radius: 5px;
-    border: 10px solid grey;
+    border: 10px solid var(--darker-grey);
     box-shadow: inset 0px 10px 10px rgb(46, 45, 45),
-        inset 0px 10px 0px 2px white,
-        inset -5px -10px 10px rgb(46, 45, 45);
-    background: grey;
+        inset 0px 10px 0px 2px var(--light-color),
+        inset -5px -10px 10px var(--darker-grey);
+    
 }
 
 /**Print-button**/
@@ -33,18 +33,14 @@ article:nth-of-type(1)>section:nth-of-type(2)>label {
         opacity: 0;
     }
 
-    & input[type="checkbox"]:checked+span {
-        background-color: #0d4fdd;
-        width: 10em;
-    }
 
     & span {
-        color: white;
+        color: var(--light-color);
         padding: .3em 1em;
         border-radius: 2em;
         box-shadow: inset 2px 2px 3px black;
         background-color: var(--darker-grey);
-        border: 5px solid rgb(88, 86, 86);
+        border: 5px solid var(--darker-grey);
     }
 }
 
@@ -62,7 +58,7 @@ article:nth-of-type(1)>section:nth-of-type(2)>div>nav>img {
     width: 12em;
     aspect-ratio: 1;
     grid-area: 1/1;
-    border: 10px solid white;
+    border: 10px solid var(--light-color);
     transform:translateY(-14em);
     opacity:0;
 }
@@ -91,7 +87,7 @@ form:has([value="Gallery"]:checked) section:nth-of-type(3)>div>figure>label {
     /* & input[type="checkbox"]:checked+span {} */
 
     & span {
-        color: white;
+        color: var(--light-color);
         padding: .3em .7em;
         border-radius: .5em;
         background-color: blue;

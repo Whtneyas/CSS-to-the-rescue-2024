@@ -14,7 +14,7 @@ main>label:first-child {
         width: 3em;
         background-color: var(--default-color);
         border-radius: .5em;
-        box-shadow: inset -2px -5px 2px black;
+        box-shadow: inset -2px -5px 2px var(--dark);
     }
 }
 
@@ -49,13 +49,13 @@ article:nth-of-type(1)>label {
         top: 50%;
         left: 0;
         transform: translateY(-50%);
-        background-color: rgb(221, 94, 94);
+        background-color:var(--start-btn-color);
         padding: 1em;
         color: #fff;
         border-radius: var(--circle);
-        box-shadow: inset 1px 2px 3px black,
-            inset -1px 0px 3px black,
-            -2px -3px 3px black;
+        box-shadow: inset 1px 2px 3px var(--dark),
+            inset -1px 0px 3px var(--dark),
+            -2px -3px 3px var(--dark);
         border: 5px solid var(--darker-grey);
     }
 }

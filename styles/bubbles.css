@@ -13,7 +13,7 @@ form>ul:nth-of-type(1) {
         list-style: none;
         aspect-ratio: 1;
         display: block;
-        box-shadow: inset 3px 3px 5px white, inset -3px -3px 3px white;
+        box-shadow: inset 3px 3px 5px var(--light-color), inset -3px -3px 3px  var(--light-color);
         background-color: transparent;
         position: absolute;
         gap: 1em;

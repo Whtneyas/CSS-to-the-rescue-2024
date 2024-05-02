@@ -12,8 +12,8 @@ form {
     aspect-ratio: 16/5;
     background-image: linear-gradient(to top right, #5cb5e1, #3ea4f0, #416bdf);
     border: 10px solid var(--darker-grey);
-    box-shadow: inset 2px 2px 4px black,
-        inset -2px -2px 4px black;
+    box-shadow: inset 2px 2px 4px var(--dark)
+        inset -2px -2px 4px var(--dark);
 
 
     display: grid;
@@ -42,7 +42,7 @@ form>ul:nth-of-type(2) {
     flex-direction: column;
     place-items: center;
     list-style: none;
-    color: white;
+    color: var(--light-color);
   
 
     & li:nth-of-type(1) {

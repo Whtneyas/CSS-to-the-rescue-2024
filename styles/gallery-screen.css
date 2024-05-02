@@ -2,7 +2,7 @@
 form:has([value="Gallery"]:checked) section:nth-of-type(3) {
     display: block;
     display: flex;
-    background-color: white;
+    background-color: var(--light-color);
 }
 
 /**Vertical scroll-Gallery**/
@@ -50,10 +50,11 @@ form:has([value="Gallery"]:checked) section:nth-of-type(3)>nav {
 
 /**Display gallery**/
 form:has([value="Gallery"]:checked) section:nth-of-type(3)>div {
-    background-color: rgba(134, 133, 133, 0.621);
+    background-color:var(--bg-color-gallery);
     scroll-behavior: smooth;
     overflow: hidden;
     scroll-snap-type: y mandatory;
+   
     scrollbar-width: none;
 
     & figure {
