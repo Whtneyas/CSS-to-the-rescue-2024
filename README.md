@@ -174,6 +174,9 @@ Als je op de startknop drukt, verschijnt het scherm, wat ik heb gedaan met een o
 https://github.com/Whtneyas/CSS-to-the-rescue-2024/assets/90154152/7e8395ea-c38a-472c-a99b-b657b676ada7
 
 ## Printer interactief maken
+Ik heb de printer interactief gemaakt door een printknop toe te voegen. Echter, het lijkt alsof de afbeeldingen onder de printer zitten, en dat is niet de bedoeling. Om dit op te lossen, ga ik het bovenste gedeelte van de printer verwijderen, zodat het lijkt alsof de afbeelding door de printer heen komt.
+![image](https://github.com/Whtneyas/CSS-to-the-rescue-2024/assets/90154152/6bcf7669-9cbd-4112-8497-f376879d36d2)
+
 
 
 
