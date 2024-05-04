@@ -178,6 +178,14 @@ Ik heb de printer interactief gemaakt door een printknop toe te voegen. Echter, 
 ![image](https://github.com/Whtneyas/CSS-to-the-rescue-2024/assets/90154152/6bcf7669-9cbd-4112-8497-f376879d36d2)
 
 
+##Flash maken>
+Ik zat vast hoe ik de 'flash' moest uitbeelden. Ik heb geprobeerd om de knop een box shadow/drop shadow te geven, zodat je die pas ziet als je op de knop klikt, maar dat lukte niet helemaal. 
+
+Ik ging op zoek naar andere manieren om dat te doen. Toen dacht ik aan conic-gradient. Met conic gradient kan ik een soort flits-effect creëren. Ik wil het er glanzend uit laten zien, dus dit is nog maar het begin. Ik ben zo blij dat ik uiteindelijk iets heb gevonden dat werkt.
+
+![image](https://github.com/Whtneyas/CSS-to-the-rescue-2024/assets/90154152/133ed115-9ddb-4d56-8103-3ba1a6b3fe79)
+
+
 
 
 
