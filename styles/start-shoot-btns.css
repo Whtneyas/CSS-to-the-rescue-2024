@@ -19,6 +19,7 @@ main>div>label:first-child {
     }
 }
 
+/** For the flash**/
 main:has(input[value="flash"]:checked) {
     animation: flash 2s linear;
 }
