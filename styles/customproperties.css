@@ -8,19 +8,18 @@
     --text-shadow: 2px -2px hsl(0, 1%, 17%);
     
     /*Colors**/
-    --light-color: hsl(0, 0%, 100%);
+    --light-color: rgb(255, 255, 255);
     --main-bg-color: linear-gradient(to right, oklch(70% 0 0), oklch(80% 0 0));
-    --dark: hsl(0, 0%, 0%);
+    --dark: rgb(0, 0, 0);
     --darker-grey: oklch(50% 0 0);
-    --default-color: hsl(300, 1%, 47%);
+    --default-color: rgb(121, 119, 121);
     --curtain-bar-color:hsl(35, 94%, 57%);
-    --bg-color-gallery: hsla(0, 0%, 52%, 0.621);
-    --logo-color:hsl(174, 80%, 62%);
-    --print-btn-color:hsl(240, 90%, 47%);
-    --start-btn-color: hsl(0, 71%, 57%);
-    --video-btn-color: hsl(0, 71%, 57%);
+    --bg-color-gallery: rgba(133, 133, 133, 0.621);
+    --logo-color:rgb(81, 236, 220);
+    --start-btn-color: rgb(223, 67, 67);
+    --video-btn-color: rgb(223, 67, 67);
     --active-state-camera-effect: yellow;
     --lighter-grey: rgb(184, 182, 182);
-    --camera-btn-color: hsl(0, 71%, 57%);
+    --camera-btn-color: rgb(223, 67, 67);
 
 }
