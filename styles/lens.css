@@ -1,4 +1,3 @@
-
 /*LENS-CONTAINER*/
 article:nth-of-type(1)>section:nth-of-type(1) {
     grid-column-start: 2;
@@ -6,6 +5,7 @@ article:nth-of-type(1)>section:nth-of-type(1) {
     display: grid;
     border-radius: 5px;
     padding: 1em;
+
 
     h3 {
         display: none;
@@ -24,8 +24,11 @@ article:nth-of-type(1)>section:nth-of-type(1)>div {
     background-color: var(--darker-grey);
     box-shadow: inset 3px 2px 4px var(--dark),
         inset -3px -2px 4px var(--dark);
+    animation: unrotate 30s infinite linear;
+
 
 }
+
 /*LENS-2 */
 article:nth-of-type(1)>section:nth-of-type(1)>div>div {
     width: 8em;
@@ -35,7 +38,9 @@ article:nth-of-type(1)>section:nth-of-type(1)>div>div {
     place-items: center;
     background-color: var(--darker-grey);
     box-shadow: inset 3px 2px 4px var(--dark),
-    inset -3px -2px 4px var(--dark);
+        inset -3px -2px 4px var(--dark);
+    animation: rotate 30s infinite linear;
+
 }
 
 /*LENS-3 */
@@ -45,6 +50,7 @@ article:nth-of-type(1)>section:nth-of-type(1)>div>div>div {
     border-radius: var(--circle);
     display: grid;
     place-items: center;
-    background: radial-gradient(circle at top, hsl(300, 76%, 72%), hsl(240, 100%, 50%), transparent);
-}
+    background: radial-gradient(circle at top, hsl(39, 100%, 50%) 30%,hsl(300, 76%, 72%)5% , #ff0000);
+    animation: rotate 30s infinite linear;
 
+}

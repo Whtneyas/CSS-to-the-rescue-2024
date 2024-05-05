@@ -25,17 +25,13 @@ form:has([value="Camera"]:checked) section:nth-of-type(1)>ul {
             box-shadow: inset 3px 3px 5px  var(--light-color), inset -3px -3px 3px  var(--light-color);
             width: 2em;
             aspect-ratio: 1;
-            border-radius: 50%;
+            border-radius: var(--circle);
             border: 3px solid var(--dark);
             outline: none;
             cursor: pointer;
-            border-radius: var(--circle);
+           
         }
 
-        & input[type="checkbox"]:checked {
-            box-shadow: inset 3px 3px 5px yellow, inset -3px -3px 3px yellow;
-
-        }
     }
 
     & li:active {

@@ -60,10 +60,11 @@ form:has([value="Gallery"]:checked) section:nth-of-type(3)>div {
     & figure {
         display: flex;
         place-content: center;
+        gap:1em;
         scroll-snap-align: center;
 
         & img {
-            width: 7em;
+            width: 6em;
             border-radius: var(--border-radius);
         }
     }

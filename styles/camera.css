@@ -1,7 +1,7 @@
 main {
     display: grid;
-    width: 100%;
-    height: 100dvh;
+    width: 100vw;
+    height: 100vh;
     justify-content: center;
     align-items: end;
     grid-area: 1/1;
@@ -9,34 +9,43 @@ main {
     background-image: url(/imgs/sunsetbg.png);
     background-size: cover;
     background-repeat: no-repeat;
+    overflow: hidden;
+
 }
+
 
 main>div:nth-of-type(1) {
-   
-
+    display: grid;
+    gap: 2em;
+    justify-content: start;
+    transform: translateY(-2em);
 }
-
 
 /***CAMERA-CONTAINER**/
 article:nth-of-type(1) {
-    container:camera/inline-size;
+    container: camera/inline-size;
     width: 18em;
     aspect-ratio: 10/3;
     display: grid;
     position: relative;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 1fr 6fr 1fr;
-    gap: 1em;
+    gap: .5em;
     border-radius: 1em;
     padding: 1em;
     box-shadow: inset -5px -5px 10px rgb(77, 76, 76);
     background: var(--main-bg-color);
     grid-area: 1/1;
+
 }
 
 /********************************************ON A LARGER SCREEN********************************************************/
 
 @media (min-width:44em) {
+
+    main>div:nth-of-type(1) {
+        transform: translateY(-8em);
+    }
 
     article:nth-of-type(1) {
         width: 25em;

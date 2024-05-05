@@ -7,7 +7,7 @@ article:nth-of-type(2) {
 
 form {
     position: relative;
-    width: 18em;
+    width: 15em;
     border-radius: .7em;
     aspect-ratio: 16/5;
     background-image: linear-gradient(to top right, #5cb5e1, #3ea4f0, #416bdf);
@@ -43,6 +43,7 @@ form>ul:nth-of-type(2) {
     place-items: center;
     list-style: none;
     color: var(--light-color);
+    filter: drop-shadow(2px 3px 3px var(--darker-grey));
   
 
     & li:nth-of-type(1) {
@@ -56,6 +57,13 @@ form>ul:nth-of-type(2) {
 
     }
 
+}
+
+@media (min-width:44em){
+    form {
+        width: 20em;
+        aspect-ratio: 16/8;
+    }  
 }
 
 
