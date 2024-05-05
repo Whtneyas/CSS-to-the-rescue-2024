@@ -15,11 +15,11 @@
 /**Open the curtains**/
 @keyframes curtains-open {
   0% {
-    width: -40px;
+    scale:1 1;
   }
 
   100% {
-    width: 300px
+    scale:0 1;
   }
 
 }
