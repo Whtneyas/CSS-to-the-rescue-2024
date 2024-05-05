@@ -87,7 +87,7 @@
   90% {
     background-image:  repeating-conic-gradient(from 45deg at 50% 30%,
     transparent 0deg 20deg,
-    rgba(239, 239, 239, 0.383) 20deg 30deg),url(/imgs/sunsetbg.png)
+    rgba(239, 239, 239, 0.383) 20deg 30deg),url(/mgs/sunsetbg.png)
  }
  
   100% {

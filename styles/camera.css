@@ -31,7 +31,7 @@ article:nth-of-type(1) {
     gap: .5em;
     border-radius: 1em;
     padding: 1em;
-    box-shadow: inset 5px 5px 10px rgb(77, 76, 76);
+    box-shadow: inset 5px 5px 10px var(--darker-grey);
     background: var(--main-bg-color);
     grid-area: 1/1;
 

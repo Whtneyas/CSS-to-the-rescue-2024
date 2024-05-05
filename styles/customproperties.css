@@ -21,5 +21,8 @@
     --active-state-camera-effect: yellow;
     --lighter-grey: rgb(184, 182, 182);
     --camera-btn-color: rgb(223, 67, 67);
+    --home-screen-color1: hsl(200, 69%, 62%);
+    --home-screen-color2: hsl(206, 86%, 59%);
+    --home-screen-color3:hsl(224, 71%, 56%);
 
 }

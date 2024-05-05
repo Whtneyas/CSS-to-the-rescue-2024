@@ -70,7 +70,6 @@ form>section:nth-of-type(1)>label {
 }
 
 
-
 /**Camera effects**/
 
 /**Grey-light**/
@@ -109,7 +108,7 @@ body:has([value="bright"]:checked)>main>div:nth-of-type(1) {
 /**Natural**/
 
 body:has([value="natural"]:checked) {
-    filter: saturate(200%);
+    filter: saturate(100%);
 }
 
 body:has([value="natural"]:checked)>main>div:nth-of-type(1) {
