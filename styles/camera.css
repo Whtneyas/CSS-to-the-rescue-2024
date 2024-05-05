@@ -9,14 +9,12 @@ main {
     background-image: url(/imgs/sunsetbg.png);
     background-size: cover;
     background-repeat: no-repeat;
-    overflow: hidden;
 
 }
 
 
 main>div:nth-of-type(1) {
     display: grid;
-    gap: 2em;
     justify-content: start;
     transform: translateY(-2em);
 }

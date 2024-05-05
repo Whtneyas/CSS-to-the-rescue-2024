@@ -17,7 +17,7 @@ article:nth-of-type(1)>section:nth-of-type(1) {
 /*LENS-1 */
 article:nth-of-type(1)>section:nth-of-type(1)>div {
     width: 10em;
-    height: 10em;
+    aspect-ratio: 1;
     border-radius: var(--circle);
     display: grid;
     place-items: center;
@@ -32,7 +32,7 @@ article:nth-of-type(1)>section:nth-of-type(1)>div {
 /*LENS-2 */
 article:nth-of-type(1)>section:nth-of-type(1)>div>div {
     width: 8em;
-    height: 8em;
+    aspect-ratio: 1;
     border-radius: var(--circle);
     display: grid;
     place-items: center;
@@ -46,11 +46,11 @@ article:nth-of-type(1)>section:nth-of-type(1)>div>div {
 /*LENS-3 */
 article:nth-of-type(1)>section:nth-of-type(1)>div>div>div {
     width: 6em;
-    height: 6em;
+   aspect-ratio: 1;
     border-radius: var(--circle);
     display: grid;
     place-items: center;
-    background: radial-gradient(circle at top, hsl(39, 100%, 50%) 30%,hsl(300, 76%, 72%)5% , #ff0000);
+    background: radial-gradient(circle at top, hsl(39, 100%, 50%) 30%, hsl(300, 76%, 72%)5%, #ff0000);
     animation: rotate 30s infinite linear;
 
 }

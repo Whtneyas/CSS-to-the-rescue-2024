@@ -21,6 +21,7 @@
     --start-btn-color: hsl(0, 71%, 57%);
     --video-btn-color: hsl(0, 71%, 57%);
     --active-state-camera-effect: yellow;
-    --lighter-grey: rgb(184, 182, 182) 
+    --lighter-grey: rgb(184, 182, 182);
+    --camera-btn-color: hsl(0, 71%, 57%);
 
 }

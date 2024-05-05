@@ -1,43 +1,41 @@
 /**SHOOT-BUTTON*/
-main>label:first-child {
+main>div>label:first-child {
+    display:flex;
+    justify-content: end;
     position: relative;
-    left: 82%;
-    bottom: 20%;
+  
 
-
-    & input {
-        margin: auto;
+    & input[type="checkbox"] {
+        position: absolute;
+        width: 3em;
+        height: 2.8em;
+        bottom: 28em;
+        right:2em;
         -webkit-appearance: none;
         position: absolute;
-        height: 2em;
-        width: 3em;
         background: radial-gradient(circle at top, var(--lighter-grey) 30%, var(--dark), var(--default-color));
         border-radius: 1em 1em 0em 0em;
-       
-      
-       
 
     }
-
 }
 
 main:has(input[value="flash"]:checked) {
-    animation: flash 2s linear  ;
+    animation: flash 2s linear;
 }
 
-main:has(input[value="flash"]:checked) >label {
-   transform: translateY(.5em);
-   transition: 1s ease-in-out;
+main:has(input[value="flash"]:checked)>label {
+    transform: translateY(.5em);
+    transition: 1s ease-in-out;
 }
 
 
 /**START BUTTON**/
-/* article:nth-of-type(1)>label {
+article:nth-of-type(1)>label {
     position: relative;
     grid-column-start: 2;
     grid-row-start: 1;
-    justify-self: end;
-    left: -3em;
+    justify-self:end;
+    left:-5em;
     font-size: .6rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
@@ -64,88 +62,38 @@ main:has(input[value="flash"]:checked) >label {
             -2px -3px 3px var(--dark);
         border: 5px solid var(--darker-grey);
     }
-} */
-
-
-article:nth-of-type(1)>label {
-    width: 5em;
-   height: 5em;
-    grid-column-start: 2;
-    grid-row-start: 1;
-    justify-content: center;
-    justify-self: end;
-    font-size: .6rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 600;
-    background-color: var(--start-btn-color);
-    color: var(--light-color);
-    border-radius: var(--circle);
-
-    box-shadow: inset 1px 2px 3px var(--dark),
-    inset -1px 0px 3px var(--dark),
-    -2px -3px 3px var(--dark);
-    border: 5px solid var(--darker-grey);
-
-    & input[type="checkbox"] {
-        position: absolute;
-        -webkit-appearance: none;
-        left: 0;
-        
-       
-    }
-
-
-    & span {;
-    }
 }
 
-/**On button**/
+
+
+/**When start button is clicked the screen appears from the bottom**/
 main:has([value="start"]:checked) article:nth-of-type(2) {
     transform: translateY(-45%);
     transition: 2s ease-in-out;
-
 }
 
-/**On button**/
-main:has([value="start"]:checked) article:nth-of-type(1)> label>span {
-   padding:.9em;
-   transition: 1s ease-in-out;
-  
-   
+/**When the start button is clicked it shrinks**/
+main:has([value="start"]:checked) article:nth-of-type(1)>label>span {
+    padding: .9em;
+    transition: 1s ease-in-out;
 
 }
 
 /********************************************ON A LARGER SCREEN********************************************************/
 
-
+/**Fallback**/
 @container camera (min-width:25em) {
-
     article:nth-of-type(1)>label {
         grid-column-start: 3;
-        padding: 2em;
-    }
 
+    }
 }
 
-@media(min-width:22em) {
-    main>label:first-child {
-        bottom: 20%;
-    }
-
-}
 
 /**Fallback**/
 @media(min-width:44em) {
-    main>label:first-child {
-        top: 10%;
-    }
-
     article:nth-of-type(1)>label {
         grid-column-start: 3;
-        padding: 2em;
 
     }
-
-
-
 }

@@ -1,5 +1,5 @@
 /**To render to the main page**/
-/* @keyframes render-page{
+@keyframes render-page{
 
   0%, 60%{
     opacity:1;
@@ -9,7 +9,7 @@
      opacity: 0;
      pointer-events: none;
   }
-}  */
+}
 
 
 /**Open the curtains**/
@@ -49,7 +49,6 @@
     transform: translateY(0);
   }
 }
-
 
 /**Animation to make the camera shine**/
 @keyframes shine {
@@ -102,39 +101,7 @@
 /**Printing images**/
 @keyframes print {
   0% {
-    /* transform: translateY(-18em); */
-    z-index: -3;
-    opacity: -1;
-    overflow: hidden;
-  }
-
-
-  90% {
-    z-index: -3;
-    transform: translateY(4em);
-    opacity: 1;
-
-  }
-
-  50% {
-    z-index: -3;
-    transform: translateY(2em);
-    opacity: 1;
-
-  }
-
-
-  100% {
-    opacity: 2;
-    z-index: 1;
-
-  }
-}
-
-
-@keyframes print {
-  0% {
-    /* transform: translateY(-18em); */
+ 
     z-index: -3;
     opacity: -1;
     overflow: hidden;

@@ -42,11 +42,9 @@ form:has([value="Camera"]:checked) section:nth-of-type(1)>ul {
 
 }
 
-
-
 /**Camera button on the screen**/
 
-form:has([value="Camera"]:checked) section:nth-of-type(1)>label {
+form>section:nth-of-type(1)>label {
     display: grid;
     place-content: center;
 
@@ -65,8 +63,14 @@ form:has([value="Camera"]:checked) section:nth-of-type(1)>label {
             border-radius: var(--circle);
             background-color: var(--light-color);
         }
+        & input[type="checkbox"]:checked {
+            transform: scale(.9);
+            transition: 1s ;
+        }
     }
 }
+
+
 
 /**Camera effects**/
 
@@ -112,3 +116,10 @@ body:has([value="natural"]:checked) {
 body:has([value="natural"]:checked)>main>div:nth-of-type(1) {
     filter: none;
 }
+
+
+/**When camera is clicked**/
+main:has([value="shoot-btn"]:checked) {
+    animation: flash 2s linear;
+}
+
