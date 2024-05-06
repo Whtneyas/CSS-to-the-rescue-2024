@@ -234,5 +234,19 @@ Text shadows
 3d transoforms
 - https://3dtransforms.desandro.com/3d-transform-functions
 - https://3dtransforms.desandro.com/perspective
-  
 
+- Dancing gif : https://gifer.com/en/gifs/dance
+
+ Position and translate
+ -[https://www.sitepoint.com/atoz-css-translate-vs-position/#:~:text=CSS position changes the element's,the layout of other elements](https://www.sitepoint.com/atoz-css-translate-vs-position/#:~:text=CSS%20position%20changes%20the%20element's,the%20layout%20of%20other%20elements).
+
+Container queries
+- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Container_queries
+- https://www.youtube.com/watch?v=3_-Je5XpbqY
+
+ Background-image met gradient
+- https://developer.mozilla.org/en-US/docs/Web/CSS/background-image
+
+  Conic gradients
+- https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/repeating-radial-gradient
+- https://codepen.io/shooft/pen/yLrXegJ
