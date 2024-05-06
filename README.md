@@ -187,6 +187,28 @@ Ik ging op zoek naar andere manieren om dat te doen. Toen dacht ik aan conic-gra
 
 
 
+## Waar ben ik trots op?
+
+Ik ben trots op alle aspecten van mijn werk, van begin tot eind. Ondanks het missen van de eerste twee of drie weken van de vakantie, heb ik extra hard moeten werken om bij te blijven. De voortgangsgesprekken met Sanne hebben echt geholpen om mijn werk telkens te verbeteren.
+
+Ik ben trots op alle inhoud van mijn camera, met de verschillende schermen en diverse functies. Ook ben ik trots op mezelf omdat het combineren van deze opdracht met andere vakken best uitdagend was. Ik moest meerdere keren extra hard werken om dit project af te ronden, met slapeloze nachten in de laatste weken. Mijn hoofd zat vol met allerlei gedachten en ik kon me niet altijd even goed concentreren, maar uiteindelijk heb ik toch een goed eindproduct weten te maken.
+
+## Mijn zwakke punten
+
+Tijdens het werken aan deze opdracht kreeg ik steeds nieuwe ideeën voor mijn camera. Dat was iets waar ik niet tegen kon vechten. In de laatste week bleek het echter wel een voordeel te zijn, omdat ik goede ideeën had om bepaalde onderdelen van mijn camera logischer te maken. Zo heb ik bijvoorbeeld de lens realistischer gemaakt door de achtergrond van de camera dezelfde kleur te geven, waardoor het lijkt alsof je via de lens de achtergrond kunt zien. Ik heb deze ook geanimeerd.
+
+![Afbeelding](https://github.com/Whtneyas/CSS-to-the-rescue-2024/assets/90154152/7dc2d7f7-db12-43f1-8471-692788db8966)
+
+## Minder trots op
+
+Ik ben niet helemaal tevreden over de printer die ik heb gemaakt en hoe het papier eruit komt. Ook ben ik niet helemaal blij met het "shoot" effect, hoewel ik wel mijn best heb gedaan met het gebruik van repeating conic gradients.
+
+## Wat heb ik geleerd?
+
+Ik heb ontzettend veel geleerd door zelf op zoek te gaan naar wat er mogelijk is voor mijn camera. Ik ontdekte welke CSS-code er al bestaat en kwam zoveel verschillende CSS-stijlen tegen dat ik dacht: "Oh, dit is mogelijk met CSS?" Voor de achtergrond van mijn camera wilde ik bijvoorbeeld weten of ik ook gradients bovenop afbeeldingen kon hebben, en ik was verbaasd dat dit al bestond. Het zou voor iemand anders misschien makkelijk zijn, maar voor mij voelde het als een ontdekking.
+
+
+
 
 
 
@@ -212,5 +234,19 @@ Text shadows
 3d transoforms
 - https://3dtransforms.desandro.com/3d-transform-functions
 - https://3dtransforms.desandro.com/perspective
-  
 
+- Dancing gif : https://gifer.com/en/gifs/dance
+
+ Position and translate
+ -[https://www.sitepoint.com/atoz-css-translate-vs-position/#:~:text=CSS position changes the element's,the layout of other elements](https://www.sitepoint.com/atoz-css-translate-vs-position/#:~:text=CSS%20position%20changes%20the%20element's,the%20layout%20of%20other%20elements).
+
+Container queries
+- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Container_queries
+- https://www.youtube.com/watch?v=3_-Je5XpbqY
+
+ Background-image met gradient
+- https://developer.mozilla.org/en-US/docs/Web/CSS/background-image
+
+  Conic gradients
+- https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/repeating-radial-gradient
+- https://codepen.io/shooft/pen/yLrXegJ
